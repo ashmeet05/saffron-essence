@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu · Saffron Essence</title>
+  <meta name="description" content="Full menu with prices. Add dishes to your order for pickup.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%230b4f4a%22/><text x=%2250%22 y=%2270%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23f2b01e%22 font-family=%22serif%22>S</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Saffron Essence</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Pages</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" aria-current="page">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="calendar.html">Events</a></li>
+        <li><a href="location.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="cart-button" type="button" aria-controls="cart-drawer" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="cart-label">Order</span>
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page">
+      <div class="wrap">
+        <div class="page-intro">
+          <h1>Menu</h1>
+          <p>Everything is cooked to order. Tap Add, then check out when you're ready.</p>
+        </div>
+
+        <div class="location-bar">
+          <span>Ordering from <strong data-location-name></strong></span>
+          <span data-open-status class="hero-status" style="color:var(--muted)"></span>
+          <a href="location.html">Change location</a>
+        </div>
+
+        <div class="menu-tools">
+          <label class="search">
+            <span class="visually-hidden">Search the menu</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="menu-search" placeholder="Search dishes, e.g. paneer">
+          </label>
+          <label class="filter-veg">
+            <input type="checkbox" id="veg-only">
+            <span class="diet diet-veg" aria-hidden="true"></span> Vegetarian only
+          </label>
+        </div>
+
+        <div class="menu-layout">
+          <nav class="menu-nav" aria-label="Menu sections"><ul id="menu-nav"></ul></nav>
+          <div id="menu-list" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">Saffron Essence</a>
+          <p>Home-style Indian cooking for pickup and dine-in across Ontario since 2018.</p>
+        </div>
+        <div>
+          <h2>Order</h2>
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Checkout</a></li>
+            <li><a href="calendar.html">Events &amp; specials</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Restaurant</h2>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="member.html">Sign in or join</a></li>
+            <li><a href="track.html">Track an order</a></li>
+            <li><a href="sitemap.html">Site map</a></li>
+            <li><a href="admin.html">Staff</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Visit</h2>
+          <ul>
+            <li><a href="location.html">Find a location</a></li>
+            <li>8 locations across Ontario</li>
+            <li>Catering: <a href="tel:+19055550142">(905) 555-0142</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <span data-year>2026</span> Saffron Essence. A student project by Ashmeet Kaur. <span data-mode></span></p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/locations.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

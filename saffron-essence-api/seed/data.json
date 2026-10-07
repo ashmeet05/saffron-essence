@@ -1,0 +1,1038 @@
+{
+  "categories": [
+    {
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "sortOrder": 0
+    },
+    {
+      "slug": "tandoor",
+      "name": "From the tandoor",
+      "sortOrder": 1
+    },
+    {
+      "slug": "curries",
+      "name": "Chicken, lamb & seafood",
+      "sortOrder": 2
+    },
+    {
+      "slug": "vegetarian",
+      "name": "Vegetarian curries",
+      "sortOrder": 3
+    },
+    {
+      "slug": "biryani",
+      "name": "Biryani & rice",
+      "sortOrder": 4
+    },
+    {
+      "slug": "breads",
+      "name": "Breads",
+      "sortOrder": 5
+    },
+    {
+      "slug": "combos",
+      "name": "Thalis & family packs",
+      "sortOrder": 6
+    },
+    {
+      "slug": "sides",
+      "name": "Sides & chutneys",
+      "sortOrder": 7
+    },
+    {
+      "slug": "desserts",
+      "name": "Desserts",
+      "sortOrder": 8
+    },
+    {
+      "slug": "drinks",
+      "name": "Drinks",
+      "sortOrder": 9
+    }
+  ],
+  "dishes": [
+    {
+      "slug": "samosa",
+      "category": "appetizers",
+      "name": "Samosa",
+      "description": "Two crisp pastries filled with spiced potato and peas, with mint and tamarind chutney.",
+      "price": 5.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/samosa.jpeg",
+      "popular": true,
+      "sortOrder": 0
+    },
+    {
+      "slug": "pakora",
+      "category": "appetizers",
+      "name": "Vegetable pakora",
+      "description": "Onion, spinach and potato fritters in a chickpea-flour batter.",
+      "price": 6.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/pakora.jpeg",
+      "popular": false,
+      "sortOrder": 1
+    },
+    {
+      "slug": "paneer-pakora",
+      "category": "appetizers",
+      "name": "Paneer pakora",
+      "description": "Cottage cheese slices stuffed with green chutney, battered and fried until golden.",
+      "price": 8.49,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/paneer-pakora.jpg",
+      "popular": false,
+      "sortOrder": 2
+    },
+    {
+      "slug": "samosa-chaat",
+      "category": "appetizers",
+      "name": "Samosa chaat",
+      "description": "Crushed samosa topped with chickpea curry, yogurt, chutneys and crunchy sev.",
+      "price": 8.99,
+      "vegetarian": true,
+      "spice": 2,
+      "image": "images/dishes/samosa-chaat.jpg",
+      "popular": false,
+      "sortOrder": 3
+    },
+    {
+      "slug": "chicken-65",
+      "category": "appetizers",
+      "name": "Chicken 65",
+      "description": "South Indian fried chicken bites tossed with curry leaves, garlic and red chili.",
+      "price": 11.49,
+      "vegetarian": false,
+      "spice": 3,
+      "image": "images/dishes/chicken-65.jpg",
+      "popular": false,
+      "sortOrder": 4
+    },
+    {
+      "slug": "chilli-paneer",
+      "category": "appetizers",
+      "name": "Chilli paneer",
+      "description": "Indo-Chinese favourite: crisp paneer with peppers and onions in a tangy chili sauce.",
+      "price": 11.99,
+      "vegetarian": true,
+      "spice": 2,
+      "image": "images/dishes/chilli-paneer.jpg",
+      "popular": false,
+      "sortOrder": 5
+    },
+    {
+      "slug": "tandoori-chicken",
+      "category": "tandoor",
+      "name": "Tandoori chicken (half)",
+      "description": "Bone-in chicken marinated overnight in yogurt and spices, roasted in the clay oven.",
+      "price": 13.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/tandoori-chicken.jpg",
+      "popular": false,
+      "sortOrder": 6
+    },
+    {
+      "slug": "chicken-tikka",
+      "category": "tandoor",
+      "name": "Chicken tikka",
+      "description": "Boneless chicken thigh pieces charred in the tandoor, served with mint chutney.",
+      "price": 14.49,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/chicken-tikka.jpg",
+      "popular": false,
+      "sortOrder": 7
+    },
+    {
+      "slug": "seekh-kebab",
+      "category": "tandoor",
+      "name": "Lamb seekh kebab",
+      "description": "Minced lamb with ginger, garlic and fresh herbs, grilled on skewers.",
+      "price": 15.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/seekh-kebab.jpg",
+      "popular": false,
+      "sortOrder": 8
+    },
+    {
+      "slug": "tandoori-paneer",
+      "category": "tandoor",
+      "name": "Paneer tikka (dry)",
+      "description": "Paneer, peppers and onion marinated in spiced yogurt and grilled.",
+      "price": 13.49,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/tandoori-paneer.jpg",
+      "popular": false,
+      "sortOrder": 9
+    },
+    {
+      "slug": "butter-chicken",
+      "category": "curries",
+      "name": "Butter chicken",
+      "description": "Tandoor-roasted chicken in a creamy tomato and butter sauce. Our most ordered dish.",
+      "price": 14.99,
+      "vegetarian": false,
+      "spice": 1,
+      "image": "images/butterchicken.jpeg",
+      "popular": true,
+      "sortOrder": 10
+    },
+    {
+      "slug": "chicken-tikka-masala",
+      "category": "curries",
+      "name": "Chicken tikka masala",
+      "description": "Charred chicken tikka in a spiced onion and tomato masala.",
+      "price": 15.49,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/chicken-tikka-masala.jpg",
+      "popular": false,
+      "sortOrder": 11
+    },
+    {
+      "slug": "chicken-korma",
+      "category": "curries",
+      "name": "Chicken korma",
+      "description": "Mild, nutty curry of cashew, cream and cardamom. A good choice for kids.",
+      "price": 15.49,
+      "vegetarian": false,
+      "spice": 0,
+      "image": "images/dishes/chicken-korma.jpg",
+      "popular": false,
+      "sortOrder": 12
+    },
+    {
+      "slug": "lamb-rogan-josh",
+      "category": "curries",
+      "name": "Lamb rogan josh",
+      "description": "Slow-cooked Kashmiri lamb curry with Kashmiri chili, fennel and ginger.",
+      "price": 17.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/lamb-rogan-josh.jpg",
+      "popular": false,
+      "sortOrder": 13
+    },
+    {
+      "slug": "goat-curry",
+      "category": "curries",
+      "name": "Home-style goat curry",
+      "description": "Bone-in goat cooked for hours with whole spices, the way it's made at home.",
+      "price": 17.49,
+      "vegetarian": false,
+      "spice": 3,
+      "image": "images/dishes/goat-curry.jpg",
+      "popular": false,
+      "sortOrder": 14
+    },
+    {
+      "slug": "fish-curry",
+      "category": "curries",
+      "name": "Goan fish curry",
+      "description": "Basa fillet in a tangy coconut, tamarind and red chili gravy.",
+      "price": 16.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/fish-curry.jpg",
+      "popular": false,
+      "sortOrder": 15
+    },
+    {
+      "slug": "prawn-masala",
+      "category": "curries",
+      "name": "Prawn masala",
+      "description": "Tiger prawns in a thick onion, tomato and coastal spice masala.",
+      "price": 18.49,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/prawn-masala.jpg",
+      "popular": false,
+      "sortOrder": 16
+    },
+    {
+      "slug": "paneer-tikka",
+      "category": "vegetarian",
+      "name": "Paneer tikka masala",
+      "description": "Grilled cottage cheese in a smoky, spiced onion and tomato gravy.",
+      "price": 12.99,
+      "vegetarian": true,
+      "spice": 2,
+      "image": "images/paneer.jpeg",
+      "popular": true,
+      "sortOrder": 17
+    },
+    {
+      "slug": "palak-paneer",
+      "category": "vegetarian",
+      "name": "Palak paneer",
+      "description": "Paneer cubes in a smooth spinach sauce with garlic and a touch of cream.",
+      "price": 12.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/palak-paneer.jpg",
+      "popular": false,
+      "sortOrder": 18
+    },
+    {
+      "slug": "dal-makhani",
+      "category": "vegetarian",
+      "name": "Dal makhani",
+      "description": "Black lentils and kidney beans simmered overnight with butter and cream.",
+      "price": 11.49,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/dal-makhani.jpg",
+      "popular": false,
+      "sortOrder": 19
+    },
+    {
+      "slug": "chana-masala",
+      "category": "vegetarian",
+      "name": "Chana masala",
+      "description": "Chickpeas in a tangy onion-tomato gravy with Punjabi garam masala. Vegan.",
+      "price": 10.99,
+      "vegetarian": true,
+      "spice": 2,
+      "image": "images/dishes/chana-masala.jpg",
+      "popular": false,
+      "sortOrder": 20
+    },
+    {
+      "slug": "aloo-gobi",
+      "category": "vegetarian",
+      "name": "Aloo gobi",
+      "description": "Potato and cauliflower cooked dry with turmeric, cumin and ginger. Vegan.",
+      "price": 9.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/gobi.jpeg",
+      "popular": false,
+      "sortOrder": 21
+    },
+    {
+      "slug": "baingan-bharta",
+      "category": "vegetarian",
+      "name": "Baingan bharta",
+      "description": "Fire-roasted eggplant mashed with onion, tomato and green chili.",
+      "price": 10.99,
+      "vegetarian": true,
+      "spice": 2,
+      "image": "images/bharta.jpeg",
+      "popular": false,
+      "sortOrder": 22
+    },
+    {
+      "slug": "malai-kofta",
+      "category": "vegetarian",
+      "name": "Malai kofta",
+      "description": "Paneer and potato dumplings in a rich, mildly sweet cashew sauce.",
+      "price": 13.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/malai-kofta.jpg",
+      "popular": false,
+      "sortOrder": 23
+    },
+    {
+      "slug": "chicken-biryani",
+      "category": "biryani",
+      "name": "Hyderabadi chicken biryani",
+      "description": "Layered basmati rice and chicken cooked sealed (dum style), with raita.",
+      "price": 15.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/chicken-biryani.jpg",
+      "popular": false,
+      "sortOrder": 24
+    },
+    {
+      "slug": "goat-biryani",
+      "category": "biryani",
+      "name": "Goat biryani",
+      "description": "Bone-in goat and saffron basmati slow-cooked together, with raita.",
+      "price": 17.99,
+      "vegetarian": false,
+      "spice": 2,
+      "image": "images/dishes/goat-biryani.jpg",
+      "popular": false,
+      "sortOrder": 25
+    },
+    {
+      "slug": "veg-biryani",
+      "category": "biryani",
+      "name": "Vegetable biryani",
+      "description": "Basmati rice with seasonal vegetables, mint and fried onions, with raita.",
+      "price": 13.49,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/veg-biryani.jpg",
+      "popular": false,
+      "sortOrder": 26
+    },
+    {
+      "slug": "jeera-rice",
+      "category": "biryani",
+      "name": "Jeera rice",
+      "description": "Basmati rice tempered with cumin seeds and ghee.",
+      "price": 4.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/jeera-rice.jpg",
+      "popular": false,
+      "sortOrder": 27
+    },
+    {
+      "slug": "plain-rice",
+      "category": "biryani",
+      "name": "Steamed basmati rice",
+      "description": "Long-grain basmati, steamed plain.",
+      "price": 3.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/plain-rice.jpg",
+      "popular": false,
+      "sortOrder": 28
+    },
+    {
+      "slug": "butter-naan",
+      "category": "breads",
+      "name": "Butter naan",
+      "description": "Soft tandoor bread brushed with butter.",
+      "price": 2.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/butter-naan.jpg",
+      "popular": false,
+      "sortOrder": 29
+    },
+    {
+      "slug": "garlic-naan",
+      "category": "breads",
+      "name": "Garlic naan",
+      "description": "Tandoor bread with garlic butter and fresh coriander.",
+      "price": 3.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/garlic-naan.jpg",
+      "popular": false,
+      "sortOrder": 30
+    },
+    {
+      "slug": "tandoori-roti",
+      "category": "breads",
+      "name": "Tandoori roti",
+      "description": "Whole-wheat flatbread from the clay oven. Vegan.",
+      "price": 2.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/tandoori-roti.jpg",
+      "popular": false,
+      "sortOrder": 31
+    },
+    {
+      "slug": "lachha-paratha",
+      "category": "breads",
+      "name": "Lachha paratha",
+      "description": "Flaky, layered whole-wheat bread cooked with ghee.",
+      "price": 3.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/lachha-paratha.jpg",
+      "popular": false,
+      "sortOrder": 32
+    },
+    {
+      "slug": "aloo-kulcha",
+      "category": "breads",
+      "name": "Amritsari aloo kulcha",
+      "description": "Crisp stuffed bread filled with spiced potato and onion.",
+      "price": 5.49,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/aloo-kulcha.jpg",
+      "popular": false,
+      "sortOrder": 33
+    },
+    {
+      "slug": "veg-thali",
+      "category": "combos",
+      "name": "Vegetarian thali",
+      "description": "Two vegetable curries, dal, rice, naan, raita, salad and a gulab jamun.",
+      "price": 16.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/veg-thali.jpg",
+      "popular": false,
+      "sortOrder": 34
+    },
+    {
+      "slug": "nonveg-thali",
+      "category": "combos",
+      "name": "Non-veg thali",
+      "description": "Butter chicken, a vegetable curry, dal, rice, naan, raita and a gulab jamun.",
+      "price": 19.99,
+      "vegetarian": false,
+      "spice": 1,
+      "image": "images/dishes/nonveg-thali.jpg",
+      "popular": false,
+      "sortOrder": 35
+    },
+    {
+      "slug": "family-pack",
+      "category": "combos",
+      "name": "Family pack (feeds 4)",
+      "description": "Any two curries, a large biryani, four naan, samosas and dessert. Tell us your picks in the notes.",
+      "price": 59.99,
+      "vegetarian": false,
+      "spice": 1,
+      "image": "images/dishes/family-pack.jpg",
+      "popular": false,
+      "sortOrder": 36
+    },
+    {
+      "slug": "veg-family-pack",
+      "category": "combos",
+      "name": "Vegetarian family pack (feeds 4)",
+      "description": "Two vegetarian curries, dal, vegetable biryani, four naan, pakoras and dessert.",
+      "price": 54.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/veg-family-pack.jpg",
+      "popular": false,
+      "sortOrder": 37
+    },
+    {
+      "slug": "raita",
+      "category": "sides",
+      "name": "Cucumber raita",
+      "description": "Cool yogurt with cucumber and roasted cumin.",
+      "price": 3.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/raita.jpg",
+      "popular": false,
+      "sortOrder": 38
+    },
+    {
+      "slug": "mango-chutney",
+      "category": "sides",
+      "name": "Mango chutney",
+      "description": "Sweet and lightly spiced mango preserve.",
+      "price": 1.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/mango-chutney.jpg",
+      "popular": false,
+      "sortOrder": 39
+    },
+    {
+      "slug": "papadum",
+      "category": "sides",
+      "name": "Papadum (4)",
+      "description": "Crisp lentil wafers.",
+      "price": 2.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/papadum.jpg",
+      "popular": false,
+      "sortOrder": 40
+    },
+    {
+      "slug": "onion-salad",
+      "category": "sides",
+      "name": "Lachha onion salad",
+      "description": "Sliced red onion with lemon, chili and chaat masala.",
+      "price": 2.99,
+      "vegetarian": true,
+      "spice": 1,
+      "image": "images/dishes/onion-salad.jpg",
+      "popular": false,
+      "sortOrder": 41
+    },
+    {
+      "slug": "gulab-jamun",
+      "category": "desserts",
+      "name": "Gulab jamun",
+      "description": "Two warm milk dumplings soaked in cardamom and rose syrup.",
+      "price": 4.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/gulabjamun.jpeg",
+      "popular": false,
+      "sortOrder": 42
+    },
+    {
+      "slug": "rasgulla",
+      "category": "desserts",
+      "name": "Rasgulla",
+      "description": "Soft, spongy cheese dumplings in light sugar syrup, served chilled.",
+      "price": 5.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/rasgulla.jpeg",
+      "popular": false,
+      "sortOrder": 43
+    },
+    {
+      "slug": "kheer",
+      "category": "desserts",
+      "name": "Rice kheer",
+      "description": "Slow-cooked rice pudding with cardamom, saffron and pistachio.",
+      "price": 4.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/kheer.jpg",
+      "popular": false,
+      "sortOrder": 44
+    },
+    {
+      "slug": "gajar-halwa",
+      "category": "desserts",
+      "name": "Gajar halwa",
+      "description": "Warm carrot pudding cooked in milk and ghee with almonds. Seasonal.",
+      "price": 5.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/gajar-halwa.jpg",
+      "popular": false,
+      "sortOrder": 45
+    },
+    {
+      "slug": "kulfi",
+      "category": "desserts",
+      "name": "Pistachio kulfi",
+      "description": "Dense, creamy Indian ice cream on a stick.",
+      "price": 4.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/kulfi.jpg",
+      "popular": false,
+      "sortOrder": 46
+    },
+    {
+      "slug": "mango-lassi",
+      "category": "drinks",
+      "name": "Mango lassi",
+      "description": "Alphonso mango blended with yogurt.",
+      "price": 3.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/mango.jpeg",
+      "popular": false,
+      "sortOrder": 47
+    },
+    {
+      "slug": "masala-chai",
+      "category": "drinks",
+      "name": "Masala chai",
+      "description": "Black tea brewed with milk, cardamom, ginger and cinnamon.",
+      "price": 2.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/tea.jpeg",
+      "popular": false,
+      "sortOrder": 48
+    },
+    {
+      "slug": "sweet-lassi",
+      "category": "drinks",
+      "name": "Sweet or salted lassi",
+      "description": "Chilled churned yogurt. Tell us sweet or salted in the notes.",
+      "price": 3.49,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/sweet-lassi.jpg",
+      "popular": false,
+      "sortOrder": 49
+    },
+    {
+      "slug": "nimbu-pani",
+      "category": "drinks",
+      "name": "Nimbu pani",
+      "description": "Fresh lime soda with black salt and roasted cumin.",
+      "price": 2.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/nimbu-pani.jpg",
+      "popular": false,
+      "sortOrder": 50
+    },
+    {
+      "slug": "soft-drink",
+      "category": "drinks",
+      "name": "Canned soft drink",
+      "description": "Coke, Diet Coke, Sprite or Thums Up.",
+      "price": 1.99,
+      "vegetarian": true,
+      "spice": 0,
+      "image": "images/dishes/soft-drink.jpg",
+      "popular": false,
+      "sortOrder": 51
+    }
+  ],
+  "locations": [
+    {
+      "slug": "brampton",
+      "name": "Brampton \u2013 Queen Street",
+      "address": "285 Queen Street East, Unit 4",
+      "city": "Brampton",
+      "postal": "L6W 2C2",
+      "phone": "(905) 555-0142",
+      "lat": 43.6905,
+      "lng": -79.7419,
+      "features": [
+        "Dine-in",
+        "Pickup",
+        "Free parking"
+      ],
+      "flagship": true,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "mississauga",
+      "name": "Mississauga \u2013 City Centre",
+      "address": "210 Burnhamthorpe Road West",
+      "city": "Mississauga",
+      "postal": "L5B 2C8",
+      "phone": "(905) 555-0177",
+      "lat": 43.589,
+      "lng": -79.6441,
+      "features": [
+        "Dine-in",
+        "Pickup",
+        "Catering"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "toronto-queen-west",
+      "name": "Toronto \u2013 Queen West",
+      "address": "512 Queen Street West",
+      "city": "Toronto",
+      "postal": "M5V 2B3",
+      "phone": "(416) 555-0119",
+      "lat": 43.6477,
+      "lng": -79.4003,
+      "features": [
+        "Dine-in",
+        "Pickup",
+        "Late night Fri\u2013Sat"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "23:30"
+        ],
+        "6": [
+          "12:00",
+          "23:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "scarborough",
+      "name": "Scarborough \u2013 Lawrence Avenue",
+      "address": "2100 Lawrence Avenue East",
+      "city": "Toronto",
+      "postal": "M1R 2Z5",
+      "phone": "(416) 555-0163",
+      "lat": 43.75,
+      "lng": -79.283,
+      "features": [
+        "Pickup",
+        "Free parking"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "hamilton",
+      "name": "Hamilton \u2013 King Street",
+      "address": "61 King Street East",
+      "city": "Hamilton",
+      "postal": "L8N 1A5",
+      "phone": "(905) 555-0108",
+      "lat": 43.2566,
+      "lng": -79.8667,
+      "features": [
+        "Dine-in",
+        "Pickup"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "kitchener",
+      "name": "Kitchener \u2013 Downtown",
+      "address": "180 King Street West",
+      "city": "Kitchener",
+      "postal": "N2G 1A6",
+      "phone": "(519) 555-0131",
+      "lat": 43.451,
+      "lng": -80.493,
+      "features": [
+        "Dine-in",
+        "Pickup"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "london",
+      "name": "London \u2013 Richmond Row",
+      "address": "420 Richmond Street",
+      "city": "London",
+      "postal": "N6A 3C7",
+      "phone": "(519) 555-0150",
+      "lat": 42.987,
+      "lng": -81.248,
+      "features": [
+        "Dine-in",
+        "Pickup"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    },
+    {
+      "slug": "ottawa",
+      "name": "Ottawa \u2013 Bank Street",
+      "address": "345 Bank Street",
+      "city": "Ottawa",
+      "postal": "K2P 1X9",
+      "phone": "(613) 555-0124",
+      "lat": 45.413,
+      "lng": -75.698,
+      "features": [
+        "Dine-in",
+        "Pickup",
+        "Catering"
+      ],
+      "flagship": false,
+      "hours": {
+        "0": [
+          "12:00",
+          "21:00"
+        ],
+        "1": null,
+        "2": [
+          "11:30",
+          "21:30"
+        ],
+        "3": [
+          "11:30",
+          "21:30"
+        ],
+        "4": [
+          "11:30",
+          "21:30"
+        ],
+        "5": [
+          "11:30",
+          "22:30"
+        ],
+        "6": [
+          "12:00",
+          "22:30"
+        ]
+      },
+      "delivers": true,
+      "deliveryRadiusKm": 15
+    }
+  ]
+}

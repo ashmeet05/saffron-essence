@@ -1,0 +1,22 @@
+# Render Blueprint: one web service that runs the API and serves the website.
+# Secrets (MONGO_URI, JWT_SECRET, ADMIN_EMAILS) are entered in the Render dashboard, never here.
+services:
+  - type: web
+    name: saffron-essence
+    runtime: node
+    plan: free
+    rootDir: saffron-essence-api
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FRONTEND_DIR
+        value: ../saffron-essence-v2
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ADMIN_EMAILS
+        sync: false

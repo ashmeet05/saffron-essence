@@ -1,0 +1,70 @@
+DISH PHOTOS - drop photos into THIS folder with these exact names.
+They appear on the menu automatically. Use .jpg files, ideally square and at least 400x400 pixels.
+
+Where to find free photos you are allowed to use:
+  - https://unsplash.com   (free, credit the photographer)
+  - https://www.pexels.com (free)
+  - https://commons.wikimedia.org (check each photo's licence)
+Search the dish name, e.g. "chicken biryani". Download, rename, put it here.
+
+Appetizers
+  paneer-pakora.jpg           Paneer pakora
+  samosa-chaat.jpg            Samosa chaat
+  chicken-65.jpg              Chicken 65
+  chilli-paneer.jpg           Chilli paneer
+
+From the tandoor
+  tandoori-chicken.jpg        Tandoori chicken (half)
+  chicken-tikka.jpg           Chicken tikka
+  seekh-kebab.jpg             Lamb seekh kebab
+  tandoori-paneer.jpg         Paneer tikka (dry)
+
+Chicken, lamb & seafood
+  chicken-tikka-masala.jpg    Chicken tikka masala
+  chicken-korma.jpg           Chicken korma
+  lamb-rogan-josh.jpg         Lamb rogan josh
+  goat-curry.jpg              Home-style goat curry
+  fish-curry.jpg              Goan fish curry
+  prawn-masala.jpg            Prawn masala
+
+Vegetarian curries
+  palak-paneer.jpg            Palak paneer
+  dal-makhani.jpg             Dal makhani
+  chana-masala.jpg            Chana masala
+  malai-kofta.jpg             Malai kofta
+
+Biryani & rice
+  chicken-biryani.jpg         Hyderabadi chicken biryani
+  goat-biryani.jpg            Goat biryani
+  veg-biryani.jpg             Vegetable biryani
+  jeera-rice.jpg              Jeera rice
+  plain-rice.jpg              Steamed basmati rice
+
+Breads
+  butter-naan.jpg             Butter naan
+  garlic-naan.jpg             Garlic naan
+  tandoori-roti.jpg           Tandoori roti
+  lachha-paratha.jpg          Lachha paratha
+  aloo-kulcha.jpg             Amritsari aloo kulcha
+
+Thalis & family packs
+  veg-thali.jpg               Vegetarian thali
+  nonveg-thali.jpg            Non-veg thali
+  family-pack.jpg             Family pack (feeds 4)
+  veg-family-pack.jpg         Vegetarian family pack (feeds 4)
+
+Sides & chutneys
+  raita.jpg                   Cucumber raita
+  mango-chutney.jpg           Mango chutney
+  papadum.jpg                 Papadum (4)
+  onion-salad.jpg             Lachha onion salad
+
+Desserts
+  kheer.jpg                   Rice kheer
+  gajar-halwa.jpg             Gajar halwa
+  kulfi.jpg                   Pistachio kulfi
+
+Drinks
+  sweet-lassi.jpg             Sweet or salted lassi
+  nimbu-pani.jpg              Nimbu pani
+  soft-drink.jpg              Canned soft drink
